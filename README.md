@@ -7,6 +7,8 @@ I being a huge fan of cricket and my roomie a football freak, It was always a pa
 
 I started my script with the request to the Url I captured from Network tab. I was able to get all the live streams running in the website in JSON form. I used `pynotify` to Notify me about the live streams added. After notifing, I saved all those stream data into a `csv` file so that no streams are repeated. I used `schedule` to run the function every 5 minutes to check if any new streams are added.
 
+You can also filter the notifications with Sports Type. Just add a new line to check `if contentGenre == 'Football'` or whatever your required Sport is.
+
 You can add new functions to notify anyone by calling from the `extractSonyLivDataLive` function.
 
 ### Requirements
